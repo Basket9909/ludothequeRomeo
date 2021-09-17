@@ -10,7 +10,7 @@
 <body>
     <nav>
         <ul>
-            <li class="grandLi"><h2 class="rotateH2">Romeo's ludotheque</h2></li>
+            <li class="grandLi"><h2>Romeo's ludotheque</h2></li>
             <li><a href="test">Test</a></li>
             <li><a href="test">Test</a></li>
             <li><a href="test">Test</a></li>
