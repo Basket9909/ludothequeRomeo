@@ -86,7 +86,7 @@ if(isset($_POST['nom']))
             $fichier = basename($_FILES['image']['name']);
             $taille_maxi = 2000000;
             $taille = filesize($_FILES['image']['tmp_name']);
-            $extensions = array('.png','.jpg','.jpeg');
+            $extensions = array('.png','.jpg','.jpeg, jpe');
             $extension = strrchr($_FILES['image']['name'], '.');
 
             if(!in_array($extension , $extensions))
