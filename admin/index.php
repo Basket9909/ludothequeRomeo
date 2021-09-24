@@ -24,7 +24,7 @@ if(isset($_POST['username']))
         }else{
             if(Password_verify($password,$don['password']))
             {
-                $_SESSION['login'] = $_POST['login'];
+                $_SESSION['login'] = $_POST['username'];
                 header("LOCATION:dashboard.php");
             }else{
                 $err = "Mot de passe incorrect";
