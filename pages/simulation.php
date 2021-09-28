@@ -41,12 +41,12 @@
 echo "<div class='pagination'>";
     if($pg>1)
     {
-    echo "<a class='textPage' href='index.php?action=home&page=".($pg-1)."' title='Page précédente'>< Précédente</a>&nbsp;";
+    echo "<a class='textPage' href='index.php?action=simu&page=".($pg-1)."' title='Page précédente'>< Précédente</a>&nbsp;";
     }
     echo '<h1 class="numPage">Page '.$pg.'</h1>';
     if($pg!=$nbpage)
     {
-    echo " <a class='textPage' href='index.php?action=home&page=".($pg+1)."' title='Page suivante'>Suivante ></a>";
+    echo " <a class='textPage' href='index.php?action=simu&page=".($pg+1)."' title='Page suivante'>Suivante ></a>";
     }            
  echo "</div>";
 ?>
