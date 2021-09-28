@@ -71,10 +71,10 @@ if(isset($_GET['action']))
     <nav>
         <ul>
             <li class="grandLi"><h2>Romeo's ludotheque</h2></li>
-            <li><a href="index.php?action=home">Home</a></li>
-            <li><a href="index.php?action=simu">Simulation</a></li>
-            <li><a href="index.php?action=gestion">Gestion</a></li>
-            <li><a href="index.php?action=rpg">RPG</a></li>
+            <li><a href="home">Home</a></li>
+            <li><a href="simu">Simulation</a></li>
+            <li><a href="gestion">Gestion</a></li>
+            <li><a href="rpg">RPG</a></li>
         </ul>
     </nav>
 <div class="contGlobal">

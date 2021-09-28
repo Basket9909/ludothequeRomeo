@@ -22,7 +22,7 @@
     while($donsimu = $simu->fetch())
     {
         echo '
-        <a class="lienproduit" href="index.php?action=jeux&id='.$donsimu['id'].'">
+        <a class="lienproduit" href="jeux-'.$donsimu['id'].'">
         <div class="carte">
         <div class="photo">
         <img src="image/mini_'.$donsimu['image'].'">

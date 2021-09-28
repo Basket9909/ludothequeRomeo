@@ -22,7 +22,7 @@
     while($dongestion = $gestion->fetch())
     {
         echo '
-        <a class="lienproduit" href="index.php?action=jeux&id='.$dongestion['id'].'">
+        <a class="lienproduit" href="jeux-'.$dongestion['id'].'">
         <div class="carte">
         <div class="photo">
         <img src="image/mini_'.$dongestion['image'].'">

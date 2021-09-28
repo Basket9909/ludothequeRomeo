@@ -1,5 +1,5 @@
 <h1 class="titre"><?=$donjeux['nom']?></h1>
-<a href="index.php?action=home"><button>Retour</button></a>
+<a href="home"><button>Retour</button></a>
 <div class="presentation">
     <img src="image/mini_<?=$donjeux['image']?>" alt="<?=$donjeux['nom']?>">
     <h2 class="editeurJeux"><?=$donjeux['editeur']?></h2>

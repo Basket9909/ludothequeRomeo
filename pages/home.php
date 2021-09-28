@@ -27,7 +27,7 @@
 
 if(isset($_GET['search']))
 {
-    echo '<a href="index.php?action=home"><button>Home</button></a>';
+    echo '<a href="home"><button>Home</button></a>';
 }
 
 ?>
@@ -55,7 +55,7 @@ if(isset($_GET['search']))
         while($don = $req->fetch())
         {
             echo '
-            <a class="lienproduit" href="index.php?action=jeux&id='.$don['id'].'">
+            <a class="lienproduit" href="jeux-'.$don['id'].'">
             <div class="carte">
             <div class="photo">
             <img src="image/mini_'.$don['image'].'">
@@ -74,7 +74,7 @@ if(isset($_GET['search']))
     while($don = $req->fetch())
     {
         echo '
-        <a class="lienproduit" href="index.php?action=jeux&id='.$don['id'].'">
+        <a class="lienproduit" href="jeux-'.$don['id'].'">
         <div class="carte">
         <div class="photo">
         <img src="image/mini_'.$don['image'].'">

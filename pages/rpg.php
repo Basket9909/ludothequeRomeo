@@ -22,7 +22,7 @@
     while($donrpg = $rpg->fetch())
     {
         echo '
-        <a class="lienproduit" href="index.php?action=jeux&id='.$donrpg['id'].'">
+        <a class="lienproduit" href="jeux-'.$donrpg['id'].'">
         <div class="carte">
         <div class="photo">
         <img src="image/mini_'.$donrpg['image'].'">
